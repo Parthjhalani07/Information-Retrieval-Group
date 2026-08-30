@@ -1,0 +1,159 @@
+{
+  "en": {
+    "n_points": 14,
+    "vocab_range": [
+      260,
+      56774
+    ],
+    "fertility_knee_vocab": 4000.0,
+    "zipf_stability_vocab": 8000,
+    "utilisation_peak_vocab": 6000,
+    "utilisation_peak_value": 0.982,
+    "marginal_yield_sweetspot_vocab": 32000,
+    "marginal_yield_table": [
+      {
+        "vocab": 500,
+        "gain_per_1k_slots": 4.037797459054926
+      },
+      {
+        "vocab": 1000,
+        "gain_per_1k_slots": 0.9771448759917226
+      },
+      {
+        "vocab": 2000,
+        "gain_per_1k_slots": 0.4364730895669928
+      },
+      {
+        "vocab": 3000,
+        "gain_per_1k_slots": 0.2522968439297153
+      },
+      {
+        "vocab": 4000,
+        "gain_per_1k_slots": 0.18281585459456284
+      },
+      {
+        "vocab": 6000,
+        "gain_per_1k_slots": 0.12497761775753859
+      },
+      {
+        "vocab": 8000,
+        "gain_per_1k_slots": 0.08382704117082374
+      },
+      {
+        "vocab": 12000,
+        "gain_per_1k_slots": 0.05486506183600881
+      },
+      {
+        "vocab": 16000,
+        "gain_per_1k_slots": 0.03564805539492444
+      },
+      {
+        "vocab": 24000,
+        "gain_per_1k_slots": 0.021869734475422065
+      },
+      {
+        "vocab": 32000,
+        "gain_per_1k_slots": 0.014159516305209174
+      }
+    ],
+    "candidates_agree_within_2x": false
+  },
+  "hi": {
+    "n_points": 8,
+    "vocab_range": [
+      260,
+      6927
+    ],
+    "fertility_knee_vocab": 500.0,
+    "zipf_stability_vocab": 6000,
+    "utilisation_peak_vocab": 4000,
+    "utilisation_peak_value": 0.9525,
+    "marginal_yield_sweetspot_vocab": 3000,
+    "marginal_yield_table": [
+      {
+        "vocab": 500,
+        "gain_per_1k_slots": 10.788954970072226
+      },
+      {
+        "vocab": 1000,
+        "gain_per_1k_slots": 0.43737418042965803
+      },
+      {
+        "vocab": 2000,
+        "gain_per_1k_slots": 0.0720845100534575
+      },
+      {
+        "vocab": 3000,
+        "gain_per_1k_slots": 0.017602100902014417
+      }
+    ],
+    "candidates_agree_within_2x": false
+  },
+  "ar": {
+    "n_points": 14,
+    "vocab_range": [
+      260,
+      60335
+    ],
+    "fertility_knee_vocab": 3000.0,
+    "zipf_stability_vocab": 3000,
+    "utilisation_peak_vocab": 12000,
+    "utilisation_peak_value": 0.9810833333333333,
+    "marginal_yield_sweetspot_vocab": 60335,
+    "marginal_yield_table": [
+      {
+        "vocab": 500,
+        "gain_per_1k_slots": 9.393856553316729
+      },
+      {
+        "vocab": 1000,
+        "gain_per_1k_slots": 1.7469583684420433
+      },
+      {
+        "vocab": 2000,
+        "gain_per_1k_slots": 0.8222011420523208
+      },
+      {
+        "vocab": 3000,
+        "gain_per_1k_slots": 0.5094926718537742
+      },
+      {
+        "vocab": 4000,
+        "gain_per_1k_slots": 0.3685523476473884
+      },
+      {
+        "vocab": 6000,
+        "gain_per_1k_slots": 0.2693723924822109
+      },
+      {
+        "vocab": 8000,
+        "gain_per_1k_slots": 0.19607603384819328
+      },
+      {
+        "vocab": 12000,
+        "gain_per_1k_slots": 0.13678587824734567
+      },
+      {
+        "vocab": 16000,
+        "gain_per_1k_slots": 0.0942683484911564
+      },
+      {
+        "vocab": 24000,
+        "gain_per_1k_slots": 0.06373962772387509
+      },
+      {
+        "vocab": 32000,
+        "gain_per_1k_slots": 0.0443600594209248
+      },
+      {
+        "vocab": 48000,
+        "gain_per_1k_slots": 0.027037541791768538
+      },
+      {
+        "vocab": 60335,
+        "gain_per_1k_slots": 0.0295590962004714
+      }
+    ],
+    "candidates_agree_within_2x": false
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "hindi": {
+    "N_total": 378726,
+    "V_total": 22199,
+    "fit": {
+      "K": 19.169499820884315,
+      "beta": 0.5521467226142533,
+      "r2": 0.9938884371154412,
+      "stderr": 0.0011142261540603533,
+      "n_points": 1512
+    },
+    "knee": {
+      "linear": {
+        "index": 382,
+        "N": 95750.0,
+        "V": 11261.0,
+        "distance": 0.2510096633883723
+      },
+      "log": {
+        "index": 56,
+        "N": 14250.0,
+        "V": 3777.0,
+        "distance": 0.08176880330364422
+      }
+    },
+    "thresholds": [
+      {
+        "threshold_per_1k": 100,
+        "observed_N": 42750.0,
+        "model_N": 33175.901919776246
+      },
+      {
+        "threshold_per_1k": 50,
+        "observed_N": 138000.0,
+        "model_N": 155949.80284068777
+      },
+      {
+        "threshold_per_1k": 25,
+        "observed_N": 346000.0,
+        "model_N": 733072.4893285255
+      },
+      {
+        "threshold_per_1k": 20,
+        "observed_N": null,
+        "model_N": 1206520.7162819335
+      },
+      {
+        "threshold_per_1k": 15,
+        "observed_N": null,
+        "model_N": 2293544.9542792304
+      },
+      {
+        "threshold_per_1k": 10,
+        "observed_N": null,
+        "model_N": 5671486.137207687
+      },
+      {
+        "threshold_per_1k": 5,
+        "observed_N": null,
+        "model_N": 26659927.650195975
+      },
+      {
+        "threshold_per_1k": 2,
+        "observed_N": null,
+        "model_N": 206257105.9316969
+      },
+      {
+        "threshold_per_1k": 1,
+        "observed_N": null,
+        "model_N": 969551787.3883297
+      }
+    ],
+    "rate_at_end": 27.06495589414595,
+    "fit_first_half": {
+      "K": 13.580468951544974,
+      "beta": 0.5846876784079016,
+      "r2": 0.9943973828362019,
+      "stderr": 0.0016004072451928164,
+      "n_points": 754
+    },
+    "fit_second_half": {
+      "K": 38.8172172378001,
+      "beta": 0.4943664446023641,
+      "r2": 0.9996215459552026,
+      "stderr": 0.0003498459565253719,
+      "n_points": 758
+    }
+  },
+  "hindi_shuffled": {
+    "fit": {
+      "K": 21.281242443223643,
+      "beta": 0.5447500833302767,
+      "r2": 0.9928577358104228,
+      "stderr": 0.0011890038886950955,
+      "n_points": 1512
+    }
+  },
+  "hindi_file_order": {
+    "fit": {
+      "K": 16.049345938227674,
+      "beta": 0.5569183868294192,
+      "r2": 0.9905705738608186,
+      "stderr": 0.0013983085174865558,
+      "n_points": 1512
+    },
+    "knee": {
+      "linear": {
+        "index": 355,
+        "N": 89000.0,
+        "V": 9579.0,
+        "distance": 0.19322323469499805
+      },
+      "log": {
+        "index": 64,
+        "N": 16250.0,
+        "V": 3715.0,
+        "distance": 0.07367454786909633
+      }
+    }
+  },
+  "hindi_surface": {
+    "N_total": 323272,
+    "V_total": 17985,
+    "fit": {
+      "K": 16.761191838164557,
+      "beta": 0.5529099856008444,
+      "r2": 0.9901447961625215,
+      "stderr": 0.0015364252141683709,
+      "n_points": 1291
+    }
+  },
+  "hindi_lemma": {
+    "N_total": 323302,
+    "V_total": 14571,
+    "fit": {
+      "K": 14.024235192816507,
+      "beta": 0.5500876379676375,
+      "r2": 0.9907306184312483,
+      "stderr": 0.0014820164152455687,
+      "n_points": 1291
+    }
+  },
+  "english": {
+    "N_total": 378726,
+    "V_total": 24099,
+    "fit": {
+      "K": 11.427624042597802,
+      "beta": 0.597073606403238,
+      "r2": 0.9961421125341355,
+      "stderr": 0.0009562105418389165,
+      "n_points": 1512
+    },
+    "knee": {
+      "linear": {
+        "index": 288,
+        "N": 72250.0,
+        "V": 9723.0,
+        "distance": 0.20916176248758533
+      },
+      "log": {
+        "index": 49,
+        "N": 12500.0,
+        "V": 3173.0,
+        "distance": 0.05998842127608195
+      }
+    },
+    "thresholds": [
+      {
+        "threshold_per_1k": 100,
+        "observed_N": 41250.0,
+        "model_N": 35617.19180384495
+      },
+      {
+        "threshold_per_1k": 50,
+        "observed_N": 101750.0,
+        "model_N": 198961.39881037225
+      },
+      {
+        "threshold_per_1k": 25,
+        "observed_N": 295000.0,
+        "model_N": 1111419.407644222
+      },
+      {
+        "threshold_per_1k": 20,
+        "observed_N": null,
+        "model_N": 1933719.165783744
+      },
+      {
+        "threshold_per_1k": 15,
+        "observed_N": null,
+        "model_N": 3948859.803516773
+      },
+      {
+        "threshold_per_1k": 10,
+        "observed_N": null,
+        "model_N": 10801959.689849181
+      },
+      {
+        "threshold_per_1k": 5,
+        "observed_N": null,
+        "model_N": 60340888.79386724
+      },
+      {
+        "threshold_per_1k": 2,
+        "observed_N": null,
+        "model_N": 586457141.1278385
+      },
+      {
+        "threshold_per_1k": 1,
+        "observed_N": null,
+        "model_N": 3276011589.676492
+      }
+    ]
+  },
+  "duality": {
+    "zipf_alpha_core": 1.0921821474280333,
+    "zipf_alpha_all_ranks": 1.295739160656033,
+    "observed_beta": 0.5521467226142533,
+    "beta_pred_from_alpha": 0.9155981924396842,
+    "err_from_alpha": 0.36345146982543086,
+    "freq_of_freq_gamma": 1.6642015196359732,
+    "beta_pred_from_gamma": 0.6642015196359732,
+    "err_from_gamma": 0.11205479702171983,
+    "note": "beta = 1/alpha only holds asymptotically; on finite corpora the measured beta is biased low. beta = gamma - 1 is the tighter prediction and is the one that survives."
+  },
+  "extrapolation": [
+    {
+      "N": 1000000.0,
+      "V_pred": 39399.5368750173,
+      "new_types_per_1k": 21.754325158060222
+    },
+    {
+      "N": 10000000.0,
+      "V_pred": 140487.55023641873,
+      "new_types_per_1k": 7.756974043114386
+    },
+    {
+      "N": 25000000.0,
+      "V_pred": 233001.711491743,
+      "new_types_per_1k": 5.146045254547108
+    },
+    {
+      "N": 100000000.0,
+      "V_pred": 500938.67433109536,
+      "new_types_per_1k": 2.765916472626431
+    },
+    {
+      "N": 1000000000.0,
+      "V_pred": 1786204.934304164,
+      "new_types_per_1k": 0.9862472003934517
+    }
+  ]
+}

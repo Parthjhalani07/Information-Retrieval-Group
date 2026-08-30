@@ -1,0 +1,286 @@
+{
+  "assumptions": {
+    "anchor_usd_per_100k_words": 1000.0,
+    "usd_per_word_curated": 0.01,
+    "usd_per_word_crawled": 1e-06,
+    "h100_usd_per_hour": 2.5,
+    "h100_effective_tflops": 220.0,
+    "experiment_overhead_multiplier": 3.5,
+    "fte_usd_per_year_loaded": 250000.0,
+    "rater_usd_per_hour_loaded": 22.0,
+    "rater_hours_per_year": 1800.0,
+    "annotation_usd_per_sft_pair": 4.5,
+    "annotation_usd_per_preference_triple": 6.0,
+    "asr_transcription_usd_per_audio_hour": 85.0,
+    "tts_studio_usd_per_recorded_hour": 1400.0,
+    "eval_item_usd": 9.0,
+    "storage_usd_per_tb_month": 18.0,
+    "tokens_per_word_indic": 1.75,
+    "tokens_per_param_chinchilla": 20
+  },
+  "heaps": {
+    "K": 19.169499820884315,
+    "beta": 0.5521467226142533
+  },
+  "corpus_tiers": [
+    {
+      "tier": "T0  Bootstrap / tokenizer + stopwords",
+      "marginal_rate_per_1k": 50,
+      "rationale": "enough to build a subword tokenizer, stoplist and basic stemmer",
+      "words_required": 155949.80284068777,
+      "vocabulary_types": 14122.134249236422,
+      "cost_if_fully_curated": 1559.4980284068777,
+      "cost_if_fully_crawled": 0.15594980284068777
+    },
+    {
+      "tier": "T1  Lexicon / spell-check / IR index",
+      "marginal_rate_per_1k": 10,
+      "rationale": "dictionary-grade coverage; spelling correction; query normalisation",
+      "words_required": 5671486.137207687,
+      "vocabulary_types": 102717.01170940325,
+      "cost_if_fully_curated": 56714.86137207687,
+      "cost_if_fully_crawled": 5.671486137207687
+    },
+    {
+      "tier": "T2  Search-grade language support",
+      "marginal_rate_per_1k": 5,
+      "rationale": "named entities, morphology, query understanding at production quality",
+      "words_required": 26659927.650195975,
+      "vocabulary_types": 241420.68184312514,
+      "cost_if_fully_curated": 266599.2765019598,
+      "cost_if_fully_crawled": 26.659927650195975
+    },
+    {
+      "tier": "T3  Foundation-model-grade coverage",
+      "marginal_rate_per_1k": 1,
+      "rationale": "long-tail lexical saturation expected of a general-purpose LLM",
+      "words_required": 969551787.3883297,
+      "vocabulary_types": 1755967.658012685,
+      "cost_if_fully_curated": 9695517.873883298,
+      "cost_if_fully_crawled": 969.5517873883297
+    }
+  ],
+  "google_search": {
+    "tier_words": 26659927.650195975,
+    "one_time": [
+      {
+        "item": "Curated linguistic corpus, Heaps T2 (26.7M words @ $0.01)",
+        "usd": 266599.2765019598
+      },
+      {
+        "item": "Web crawl acquisition, dedup and cleaning (40B words)",
+        "usd": 40000.0
+      },
+      {
+        "item": "Morphological analyser, stemmer, segmenter",
+        "usd": 1500000.0
+      },
+      {
+        "item": "Transliteration + IME + spell-correction lexicons (1.2M pairs @ $0.35)",
+        "usd": 420000.0
+      },
+      {
+        "item": "Query-understanding training data (250k annotated queries @ $2.20)",
+        "usd": 550000.0
+      },
+      {
+        "item": "Relevance/eval golden sets (60k judged pairs)",
+        "usd": 540000.0
+      },
+      {
+        "item": "Product UI localisation (~65k strings)",
+        "usd": 27300.0
+      },
+      {
+        "item": "Ranking + NLU model adaptation (GPU)",
+        "usd": 63636.36363636364
+      },
+      {
+        "item": "Engineering programme (18 FTE-years)",
+        "usd": 4500000.0
+      },
+      {
+        "item": "Index build-out, 1.2 PB (12 months storage)",
+        "usd": 259200.0
+      },
+      {
+        "item": "Voice Search: ASR acoustic + language model adaptation",
+        "usd": 1200000.0
+      },
+      {
+        "item": "Knowledge Graph / entity-linking localisation",
+        "usd": 900000.0
+      },
+      {
+        "item": "Spam, safety and content-policy adaptation",
+        "usd": 700000.0
+      },
+      {
+        "item": "Legal, licensing and data-rights clearance",
+        "usd": 450000.0
+      }
+    ],
+    "recurring_annual": [
+      {
+        "item": "Search-quality raters (45 raters)",
+        "usd": 1782000.0
+      },
+      {
+        "item": "Continuous re-crawl and index refresh",
+        "usd": 60000.0
+      },
+      {
+        "item": "Incremental serving fleet (inference)",
+        "usd": 2600000.0
+      },
+      {
+        "item": "Index storage (1.2 PB)",
+        "usd": 259200.0
+      },
+      {
+        "item": "Sustaining engineering (6 FTE)",
+        "usd": 1500000.0
+      },
+      {
+        "item": "Model refresh training (2 cycles/yr)",
+        "usd": 31818.18181818182
+      }
+    ],
+    "one_time_total": 11416735.640138324,
+    "recurring_total": 6233018.181818182
+  },
+  "sarvam": {
+    "tier_words_T3": 969551787.3883297,
+    "language_tokens_budget": 200000000000.0,
+    "language_words_budget": 114285714285.71428,
+    "one_time": [
+      {
+        "item": "Curated/licensed seed corpus (686M words @ $0.01)",
+        "usd": 6857142.857142857
+      },
+      {
+        "item": "Web + archive crawl, dedup, quality filtering (114B words)",
+        "usd": 113600.0
+      },
+      {
+        "item": "Data pipeline compute (dedup, classify, PII scrub)",
+        "usd": 420000.0
+      },
+      {
+        "item": "Publisher / archive content licensing",
+        "usd": 1500000.0
+      },
+      {
+        "item": "Tokenizer extension + vocabulary re-fit",
+        "usd": 180000.0
+      },
+      {
+        "item": "Continued pretraining, 105B MoE (9B active, 200B tokens)",
+        "usd": 119318.18181818184
+      },
+      {
+        "item": "Continued pretraining, 30B MoE (1B active, 200B tokens)",
+        "usd": 13257.575757575756
+      },
+      {
+        "item": "Instruction tuning data (120k pairs)",
+        "usd": 540000.0
+      },
+      {
+        "item": "Preference/RLHF data (60k triples)",
+        "usd": 360000.0
+      },
+      {
+        "item": "Alignment training runs (SFT + DPO)",
+        "usd": 2386.363636363636
+      },
+      {
+        "item": "ASR corpus (2,500 transcribed audio hours)",
+        "usd": 212500.0
+      },
+      {
+        "item": "TTS voice corpus (2 voices x 45 studio hours)",
+        "usd": 126000.0
+      },
+      {
+        "item": "Benchmark + safety evaluation sets (25k items)",
+        "usd": 225000.0
+      },
+      {
+        "item": "Research + engineering team (22 FTE-years)",
+        "usd": 5500000.0
+      }
+    ],
+    "recurring_annual": [
+      {
+        "item": "Inference serving capacity (dedicated)",
+        "usd": 1900000.0
+      },
+      {
+        "item": "Quarterly refresh training (4 cycles)",
+        "usd": 47727.27272727273
+      },
+      {
+        "item": "Continuous data refresh + re-annotation",
+        "usd": 900000.0
+      },
+      {
+        "item": "Evaluation, red-teaming, safety ops (5 FTE)",
+        "usd": 1250000.0
+      },
+      {
+        "item": "Object storage for corpus + checkpoints (600 TB)",
+        "usd": 129600.0
+      }
+    ],
+    "one_time_total": 16169204.97835498,
+    "recurring_total": 4227327.2727272725
+  },
+  "naive_anchor_check": {
+    "words": 114285714285.71428,
+    "cost_all_curated": 1142857142.857143,
+    "cost_all_crawled": 114285.71428571428,
+    "ratio": 10000.0,
+    "comment": "Buying 114B words at the anchor rate costs $1.14 billion - roughly 28x Sarvam's disclosed $41M seed+Series A. The anchor price is a CURATION price, and it is only ever paid on the small high-value fraction of a corpus."
+  },
+  "curation_share_sensitivity": [
+    {
+      "curated_share": 0.002,
+      "curated_words": 228571428.57142857,
+      "data_cost": 2399771.4285714286
+    },
+    {
+      "curated_share": 0.006,
+      "curated_words": 685714285.7142857,
+      "data_cost": 6970742.857142857
+    },
+    {
+      "curated_share": 0.01,
+      "curated_words": 1142857142.857143,
+      "data_cost": 11541714.285714285
+    },
+    {
+      "curated_share": 0.02,
+      "curated_words": 2285714285.714286,
+      "data_cost": 22969142.85714286
+    },
+    {
+      "curated_share": 0.05,
+      "curated_words": 5714285714.285714,
+      "data_cost": 57251428.57142857
+    },
+    {
+      "curated_share": 0.1,
+      "curated_words": 11428571428.571428,
+      "data_cost": 114388571.42857143
+    }
+  ],
+  "headline": {
+    "google_one_time": 11416735.640138324,
+    "google_annual": 6233018.181818182,
+    "google_5yr": 42581826.549229234,
+    "sarvam_one_time": 16169204.97835498,
+    "sarvam_annual": 4227327.2727272725,
+    "sarvam_5yr": 37305841.34199134
+  }
+}

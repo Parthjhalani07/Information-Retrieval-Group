@@ -1,0 +1,350 @@
+{
+  "en": {
+    "sweep": [
+      {
+        "target_vocab": 200,
+        "actual_vocab": 260,
+        "path": "/home/claude/a2/tokenizers/en_sweep_200.json"
+      },
+      {
+        "target_vocab": 500,
+        "actual_vocab": 500,
+        "path": "/home/claude/a2/tokenizers/en_sweep_500.json"
+      },
+      {
+        "target_vocab": 1000,
+        "actual_vocab": 1000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_1000.json"
+      },
+      {
+        "target_vocab": 2000,
+        "actual_vocab": 2000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_2000.json"
+      },
+      {
+        "target_vocab": 3000,
+        "actual_vocab": 3000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_3000.json"
+      },
+      {
+        "target_vocab": 4000,
+        "actual_vocab": 4000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_4000.json"
+      },
+      {
+        "target_vocab": 6000,
+        "actual_vocab": 6000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_6000.json"
+      },
+      {
+        "target_vocab": 8000,
+        "actual_vocab": 8000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_8000.json"
+      },
+      {
+        "target_vocab": 12000,
+        "actual_vocab": 12000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_12000.json"
+      },
+      {
+        "target_vocab": 16000,
+        "actual_vocab": 16000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_16000.json"
+      },
+      {
+        "target_vocab": 24000,
+        "actual_vocab": 24000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_24000.json"
+      },
+      {
+        "target_vocab": 32000,
+        "actual_vocab": 32000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_32000.json"
+      },
+      {
+        "target_vocab": 48000,
+        "actual_vocab": 48000,
+        "path": "/home/claude/a2/tokenizers/en_sweep_48000.json"
+      },
+      {
+        "target_vocab": 64000,
+        "actual_vocab": 56774,
+        "path": "/home/claude/a2/tokenizers/en_sweep_64000.json"
+      },
+      {
+        "target_vocab": 96000,
+        "actual_vocab": 56774,
+        "path": "/home/claude/a2/tokenizers/en_sweep_96000.json"
+      },
+      {
+        "target_vocab": 128000,
+        "actual_vocab": 56774,
+        "path": "/home/claude/a2/tokenizers/en_sweep_128000.json"
+      },
+      {
+        "target_vocab": 151936,
+        "actual_vocab": 56774,
+        "path": "/home/claude/a2/tokenizers/en_sweep_151936.json"
+      },
+      {
+        "target_vocab": 163840,
+        "actual_vocab": 56774,
+        "path": "/home/claude/a2/tokenizers/en_sweep_163840.json"
+      }
+    ],
+    "model_style": {
+      "llama2": {
+        "target_vocab": 32000,
+        "actual_vocab": 32000,
+        "path": "/home/claude/a2/tokenizers/en_model_llama2.json"
+      },
+      "llama3": {
+        "target_vocab": 128000,
+        "actual_vocab": 56774,
+        "path": "/home/claude/a2/tokenizers/en_model_llama3.json"
+      },
+      "qwen": {
+        "target_vocab": 151643,
+        "actual_vocab": 56774,
+        "path": "/home/claude/a2/tokenizers/en_model_qwen.json"
+      },
+      "kimi": {
+        "target_vocab": 163584,
+        "actual_vocab": 56774,
+        "path": "/home/claude/a2/tokenizers/en_model_kimi.json"
+      }
+    }
+  },
+  "hi": {
+    "sweep": [
+      {
+        "target_vocab": 200,
+        "actual_vocab": 260,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_200.json"
+      },
+      {
+        "target_vocab": 500,
+        "actual_vocab": 500,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_500.json"
+      },
+      {
+        "target_vocab": 1000,
+        "actual_vocab": 1000,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_1000.json"
+      },
+      {
+        "target_vocab": 2000,
+        "actual_vocab": 2000,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_2000.json"
+      },
+      {
+        "target_vocab": 3000,
+        "actual_vocab": 3000,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_3000.json"
+      },
+      {
+        "target_vocab": 4000,
+        "actual_vocab": 4000,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_4000.json"
+      },
+      {
+        "target_vocab": 6000,
+        "actual_vocab": 6000,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_6000.json"
+      },
+      {
+        "target_vocab": 8000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_8000.json"
+      },
+      {
+        "target_vocab": 12000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_12000.json"
+      },
+      {
+        "target_vocab": 16000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_16000.json"
+      },
+      {
+        "target_vocab": 24000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_24000.json"
+      },
+      {
+        "target_vocab": 32000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_32000.json"
+      },
+      {
+        "target_vocab": 48000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_48000.json"
+      },
+      {
+        "target_vocab": 64000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_64000.json"
+      },
+      {
+        "target_vocab": 96000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_96000.json"
+      },
+      {
+        "target_vocab": 128000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_128000.json"
+      },
+      {
+        "target_vocab": 151936,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_151936.json"
+      },
+      {
+        "target_vocab": 163840,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_sweep_163840.json"
+      }
+    ],
+    "model_style": {
+      "llama2": {
+        "target_vocab": 32000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_model_llama2.json"
+      },
+      "llama3": {
+        "target_vocab": 128000,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_model_llama3.json"
+      },
+      "qwen": {
+        "target_vocab": 151643,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_model_qwen.json"
+      },
+      "kimi": {
+        "target_vocab": 163584,
+        "actual_vocab": 6927,
+        "path": "/home/claude/a2/tokenizers/hi_model_kimi.json"
+      }
+    }
+  },
+  "ar": {
+    "sweep": [
+      {
+        "target_vocab": 200,
+        "actual_vocab": 260,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_200.json"
+      },
+      {
+        "target_vocab": 500,
+        "actual_vocab": 500,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_500.json"
+      },
+      {
+        "target_vocab": 1000,
+        "actual_vocab": 1000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_1000.json"
+      },
+      {
+        "target_vocab": 2000,
+        "actual_vocab": 2000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_2000.json"
+      },
+      {
+        "target_vocab": 3000,
+        "actual_vocab": 3000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_3000.json"
+      },
+      {
+        "target_vocab": 4000,
+        "actual_vocab": 4000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_4000.json"
+      },
+      {
+        "target_vocab": 6000,
+        "actual_vocab": 6000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_6000.json"
+      },
+      {
+        "target_vocab": 8000,
+        "actual_vocab": 8000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_8000.json"
+      },
+      {
+        "target_vocab": 12000,
+        "actual_vocab": 12000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_12000.json"
+      },
+      {
+        "target_vocab": 16000,
+        "actual_vocab": 16000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_16000.json"
+      },
+      {
+        "target_vocab": 24000,
+        "actual_vocab": 24000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_24000.json"
+      },
+      {
+        "target_vocab": 32000,
+        "actual_vocab": 32000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_32000.json"
+      },
+      {
+        "target_vocab": 48000,
+        "actual_vocab": 48000,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_48000.json"
+      },
+      {
+        "target_vocab": 64000,
+        "actual_vocab": 60335,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_64000.json"
+      },
+      {
+        "target_vocab": 96000,
+        "actual_vocab": 60335,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_96000.json"
+      },
+      {
+        "target_vocab": 128000,
+        "actual_vocab": 60335,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_128000.json"
+      },
+      {
+        "target_vocab": 151936,
+        "actual_vocab": 60335,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_151936.json"
+      },
+      {
+        "target_vocab": 163840,
+        "actual_vocab": 60335,
+        "path": "/home/claude/a2/tokenizers/ar_sweep_163840.json"
+      }
+    ],
+    "model_style": {
+      "llama2": {
+        "target_vocab": 32000,
+        "actual_vocab": 32000,
+        "path": "/home/claude/a2/tokenizers/ar_model_llama2.json"
+      },
+      "llama3": {
+        "target_vocab": 128000,
+        "actual_vocab": 60335,
+        "path": "/home/claude/a2/tokenizers/ar_model_llama3.json"
+      },
+      "qwen": {
+        "target_vocab": 151643,
+        "actual_vocab": 60335,
+        "path": "/home/claude/a2/tokenizers/ar_model_qwen.json"
+      },
+      "kimi": {
+        "target_vocab": 163584,
+        "actual_vocab": 60335,
+        "path": "/home/claude/a2/tokenizers/ar_model_kimi.json"
+      }
+    }
+  }
+}

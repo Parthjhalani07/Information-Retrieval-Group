@@ -1,0 +1,1272 @@
+{
+  "sweep": {
+    "en": [
+      {
+        "lang": "en",
+        "tag": "sweep_200",
+        "target_vocab": 200,
+        "actual_vocab": 260,
+        "n_tokens": 2567675,
+        "used_vocab": 181,
+        "vocab_utilisation": 0.6961538461538461,
+        "hapax_share_tokens": 0.03867403314917127,
+        "fertility_tokens_per_word": 5.8283660350291004,
+        "chars_per_token": 0.9977446522632343,
+        "bytes_per_token": 1.0,
+        "zipf_alpha": 3.814077667672706,
+        "zipf_r2": 0.8859246489996098,
+        "zipf_range": [
+          5,
+          162
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_500",
+        "target_vocab": 500,
+        "actual_vocab": 500,
+        "n_tokens": 1304003,
+        "used_vocab": 421,
+        "vocab_utilisation": 0.842,
+        "hapax_share_tokens": 0.0166270783847981,
+        "fertility_tokens_per_word": 2.959956690303894,
+        "chars_per_token": 1.9646304494698248,
+        "bytes_per_token": 1.9690713901731822,
+        "zipf_alpha": 1.5458063396035937,
+        "zipf_r2": 0.545578860853922,
+        "zipf_range": [
+          5,
+          378
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_1000",
+        "target_vocab": 1000,
+        "actual_vocab": 1000,
+        "n_tokens": 1044771,
+        "used_vocab": 921,
+        "vocab_utilisation": 0.921,
+        "hapax_share_tokens": 0.008686210640608035,
+        "fertility_tokens_per_word": 2.371525917720657,
+        "chars_per_token": 2.4521009867234063,
+        "bytes_per_token": 2.4576438281690436,
+        "zipf_alpha": 0.9813726545023789,
+        "zipf_r2": 0.9326795573231241,
+        "zipf_range": [
+          5,
+          828
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_2000",
+        "target_vocab": 2000,
+        "actual_vocab": 2000,
+        "n_tokens": 887205,
+        "used_vocab": 1919,
+        "vocab_utilisation": 0.9595,
+        "hapax_share_tokens": 0.005211047420531527,
+        "fertility_tokens_per_word": 2.0138668204145747,
+        "chars_per_token": 2.8875896776956846,
+        "bytes_per_token": 2.8941169177360364,
+        "zipf_alpha": 0.9598064642426785,
+        "zipf_r2": 0.984579643149592,
+        "zipf_range": [
+          5,
+          1727
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_3000",
+        "target_vocab": 3000,
+        "actual_vocab": 3000,
+        "n_tokens": 816064,
+        "used_vocab": 2916,
+        "vocab_utilisation": 0.972,
+        "hapax_share_tokens": 0.004801097393689987,
+        "fertility_tokens_per_word": 1.852383849205989,
+        "chars_per_token": 3.1393175045094504,
+        "bytes_per_token": 3.1464137616657517,
+        "zipf_alpha": 0.9575839007429422,
+        "zipf_r2": 0.9911840643752633,
+        "zipf_range": [
+          5,
+          2624
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_4000",
+        "target_vocab": 4000,
+        "actual_vocab": 4000,
+        "n_tokens": 771252,
+        "used_vocab": 3911,
+        "vocab_utilisation": 0.97775,
+        "hapax_share_tokens": 0.004091025313219126,
+        "fertility_tokens_per_word": 1.7506650807630497,
+        "chars_per_token": 3.3217210457801083,
+        "bytes_per_token": 3.3292296162603146,
+        "zipf_alpha": 0.9542939223823712,
+        "zipf_r2": 0.9945179819222906,
+        "zipf_range": [
+          5,
+          3519
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_6000",
+        "target_vocab": 6000,
+        "actual_vocab": 6000,
+        "n_tokens": 717391,
+        "used_vocab": 5892,
+        "vocab_utilisation": 0.982,
+        "hapax_share_tokens": 0.00560081466395112,
+        "fertility_tokens_per_word": 1.6284059852728874,
+        "chars_per_token": 3.571112545320474,
+        "bytes_per_token": 3.5791848517753917,
+        "zipf_alpha": 0.954452962755127,
+        "zipf_r2": 0.9975676536862773,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_8000",
+        "target_vocab": 8000,
+        "actual_vocab": 8000,
+        "n_tokens": 685291,
+        "used_vocab": 7854,
+        "vocab_utilisation": 0.98175,
+        "hapax_share_tokens": 0.009039979628214923,
+        "fertility_tokens_per_word": 1.5555421883653995,
+        "chars_per_token": 3.7383885094069527,
+        "bytes_per_token": 3.746838934117039,
+        "zipf_alpha": 0.9534362583377275,
+        "zipf_r2": 0.9982128331813704,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_12000",
+        "target_vocab": 12000,
+        "actual_vocab": 12000,
+        "n_tokens": 647373,
+        "used_vocab": 11709,
+        "vocab_utilisation": 0.97575,
+        "hapax_share_tokens": 0.016824664787770092,
+        "fertility_tokens_per_word": 1.4694721120059562,
+        "chars_per_token": 3.95735379757883,
+        "bytes_per_token": 3.9662991814610744,
+        "zipf_alpha": 0.9541373216745255,
+        "zipf_r2": 0.9989444771064934,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_16000",
+        "target_vocab": 16000,
+        "actual_vocab": 16000,
+        "n_tokens": 624907,
+        "used_vocab": 15426,
+        "vocab_utilisation": 0.964125,
+        "hapax_share_tokens": 0.029754959159859977,
+        "fertility_tokens_per_word": 1.4184765337715755,
+        "chars_per_token": 4.0996244241143085,
+        "bytes_per_token": 4.108891403040772,
+        "zipf_alpha": 0.9661131544682204,
+        "zipf_r2": 0.9988052478873886,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_24000",
+        "target_vocab": 24000,
+        "actual_vocab": 24000,
+        "n_tokens": 599385,
+        "used_vocab": 22516,
+        "vocab_utilisation": 0.9381666666666667,
+        "hapax_share_tokens": 0.05413927873512169,
+        "fertility_tokens_per_word": 1.3605441404795846,
+        "chars_per_token": 4.274187709068462,
+        "bytes_per_token": 4.283849278844149,
+        "zipf_alpha": 0.9770582487747043,
+        "zipf_r2": 0.9985395786207526,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_32000",
+        "target_vocab": 32000,
+        "actual_vocab": 32000,
+        "n_tokens": 583944,
+        "used_vocab": 28727,
+        "vocab_utilisation": 0.89771875,
+        "hapax_share_tokens": 0.10669405089288822,
+        "fertility_tokens_per_word": 1.325494611256889,
+        "chars_per_token": 4.387208362445714,
+        "bytes_per_token": 4.397125409285822,
+        "zipf_alpha": 0.9961144403999864,
+        "zipf_r2": 0.9981155877078756,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_48000",
+        "target_vocab": 48000,
+        "actual_vocab": 48000,
+        "n_tokens": 567944,
+        "used_vocab": 39798,
+        "vocab_utilisation": 0.829125,
+        "hapax_share_tokens": 0.43027287803407205,
+        "fertility_tokens_per_word": 1.2891762078139044,
+        "chars_per_token": 4.510803882072881,
+        "bytes_per_token": 4.521000309889708,
+        "zipf_alpha": 1.0188068504191758,
+        "zipf_r2": 0.9984222404281256,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_64000",
+        "target_vocab": 64000,
+        "actual_vocab": 56774,
+        "n_tokens": 559170,
+        "used_vocab": 40075,
+        "vocab_utilisation": 0.7058688836439215,
+        "hapax_share_tokens": 0.501809107922645,
+        "fertility_tokens_per_word": 1.2692601033258577,
+        "chars_per_token": 4.581583418280666,
+        "bytes_per_token": 4.591939839404832,
+        "zipf_alpha": 1.0260680572863312,
+        "zipf_r2": 0.9982994572276093,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_96000",
+        "target_vocab": 96000,
+        "actual_vocab": 56774,
+        "n_tokens": 559170,
+        "used_vocab": 40075,
+        "vocab_utilisation": 0.7058688836439215,
+        "hapax_share_tokens": 0.501809107922645,
+        "fertility_tokens_per_word": 1.2692601033258577,
+        "chars_per_token": 4.581583418280666,
+        "bytes_per_token": 4.591939839404832,
+        "zipf_alpha": 1.0260680572863312,
+        "zipf_r2": 0.9982994572276093,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_128000",
+        "target_vocab": 128000,
+        "actual_vocab": 56774,
+        "n_tokens": 559170,
+        "used_vocab": 40075,
+        "vocab_utilisation": 0.7058688836439215,
+        "hapax_share_tokens": 0.501809107922645,
+        "fertility_tokens_per_word": 1.2692601033258577,
+        "chars_per_token": 4.581583418280666,
+        "bytes_per_token": 4.591939839404832,
+        "zipf_alpha": 1.0260680572863312,
+        "zipf_r2": 0.9982994572276093,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_151936",
+        "target_vocab": 151936,
+        "actual_vocab": 56774,
+        "n_tokens": 559170,
+        "used_vocab": 40075,
+        "vocab_utilisation": 0.7058688836439215,
+        "hapax_share_tokens": 0.501809107922645,
+        "fertility_tokens_per_word": 1.2692601033258577,
+        "chars_per_token": 4.581583418280666,
+        "bytes_per_token": 4.591939839404832,
+        "zipf_alpha": 1.0260680572863312,
+        "zipf_r2": 0.9982994572276093,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "en",
+        "tag": "sweep_163840",
+        "target_vocab": 163840,
+        "actual_vocab": 56774,
+        "n_tokens": 559170,
+        "used_vocab": 40075,
+        "vocab_utilisation": 0.7058688836439215,
+        "hapax_share_tokens": 0.501809107922645,
+        "fertility_tokens_per_word": 1.2692601033258577,
+        "chars_per_token": 4.581583418280666,
+        "bytes_per_token": 4.591939839404832,
+        "zipf_alpha": 1.0260680572863312,
+        "zipf_r2": 0.9982994572276093,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      }
+    ],
+    "hi": [
+      {
+        "lang": "hi",
+        "tag": "sweep_200",
+        "target_vocab": 200,
+        "actual_vocab": 260,
+        "n_tokens": 5119350,
+        "used_vocab": 163,
+        "vocab_utilisation": 0.6269230769230769,
+        "hapax_share_tokens": 0.05521472392638037,
+        "fertility_tokens_per_word": 13.506343774816441,
+        "chars_per_token": 0.3883272290427496,
+        "bytes_per_token": 0.9998927598230244,
+        "zipf_alpha": 4.010700506207843,
+        "zipf_r2": 0.9086925906207335,
+        "zipf_range": [
+          5,
+          146
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_500",
+        "target_vocab": 500,
+        "actual_vocab": 500,
+        "n_tokens": 1426151,
+        "used_vocab": 387,
+        "vocab_utilisation": 0.774,
+        "hapax_share_tokens": 0.03359173126614987,
+        "fertility_tokens_per_word": 3.7626037838394017,
+        "chars_per_token": 1.393949869263493,
+        "bytes_per_token": 3.5892419526403585,
+        "zipf_alpha": 2.074299874051387,
+        "zipf_r2": 0.7863567251224896,
+        "zipf_range": [
+          5,
+          348
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_1000",
+        "target_vocab": 1000,
+        "actual_vocab": 1000,
+        "n_tokens": 1344248,
+        "used_vocab": 881,
+        "vocab_utilisation": 0.881,
+        "hapax_share_tokens": 0.021566401816118047,
+        "fertility_tokens_per_word": 3.5465196961742116,
+        "chars_per_token": 1.4788811290773727,
+        "bytes_per_token": 3.8079290428551875,
+        "zipf_alpha": 1.5081159134165163,
+        "zipf_r2": 0.9874982741652124,
+        "zipf_range": [
+          5,
+          792
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_2000",
+        "target_vocab": 2000,
+        "actual_vocab": 2000,
+        "n_tokens": 1319274,
+        "used_vocab": 1873,
+        "vocab_utilisation": 0.9365,
+        "hapax_share_tokens": 0.012813667912439935,
+        "fertility_tokens_per_word": 3.480630974084051,
+        "chars_per_token": 1.5068765093528713,
+        "bytes_per_token": 3.880013552908645,
+        "zipf_alpha": 1.648050612717889,
+        "zipf_r2": 0.9910354531234015,
+        "zipf_range": [
+          5,
+          1685
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_3000",
+        "target_vocab": 3000,
+        "actual_vocab": 3000,
+        "n_tokens": 1313316,
+        "used_vocab": 2855,
+        "vocab_utilisation": 0.9516666666666667,
+        "hapax_share_tokens": 0.012609457092819614,
+        "fertility_tokens_per_word": 3.464912026129651,
+        "chars_per_token": 1.5137126175269318,
+        "bytes_per_token": 3.8976156538106594,
+        "zipf_alpha": 1.7427664609380258,
+        "zipf_r2": 0.9914059518902065,
+        "zipf_range": [
+          5,
+          2569
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_4000",
+        "target_vocab": 4000,
+        "actual_vocab": 4000,
+        "n_tokens": 1310760,
+        "used_vocab": 3810,
+        "vocab_utilisation": 0.9525,
+        "hapax_share_tokens": 0.01863517060367454,
+        "fertility_tokens_per_word": 3.4581685499679446,
+        "chars_per_token": 1.5166643779181543,
+        "bytes_per_token": 3.9052160578595623,
+        "zipf_alpha": 1.8157814479115173,
+        "zipf_r2": 0.9900479690583969,
+        "zipf_range": [
+          5,
+          3429
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_6000",
+        "target_vocab": 6000,
+        "actual_vocab": 6000,
+        "n_tokens": 1308405,
+        "used_vocab": 5624,
+        "vocab_utilisation": 0.9373333333333334,
+        "hapax_share_tokens": 0.30316500711237554,
+        "fertility_tokens_per_word": 3.451955370640551,
+        "chars_per_token": 1.5193942242654224,
+        "bytes_per_token": 3.912245061735472,
+        "zipf_alpha": 1.9140880372385647,
+        "zipf_r2": 0.9875113770811228,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_8000",
+        "target_vocab": 8000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_12000",
+        "target_vocab": 12000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_16000",
+        "target_vocab": 16000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_24000",
+        "target_vocab": 24000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_32000",
+        "target_vocab": 32000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_48000",
+        "target_vocab": 48000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_64000",
+        "target_vocab": 64000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_96000",
+        "target_vocab": 96000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_128000",
+        "target_vocab": 128000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_151936",
+        "target_vocab": 151936,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "hi",
+        "tag": "sweep_163840",
+        "target_vocab": 163840,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      }
+    ],
+    "ar": [
+      {
+        "lang": "ar",
+        "tag": "sweep_200",
+        "target_vocab": 200,
+        "actual_vocab": 260,
+        "n_tokens": 2839349,
+        "used_vocab": 155,
+        "vocab_utilisation": 0.5961538461538461,
+        "hapax_share_tokens": 0.05161290322580645,
+        "fertility_tokens_per_word": 11.098186750260906,
+        "chars_per_token": 0.5529911962213874,
+        "bytes_per_token": 1.0,
+        "zipf_alpha": 4.152668239140575,
+        "zipf_r2": 0.9045542614813209,
+        "zipf_range": [
+          5,
+          139
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_500",
+        "target_vocab": 500,
+        "actual_vocab": 500,
+        "n_tokens": 872431,
+        "used_vocab": 390,
+        "vocab_utilisation": 0.78,
+        "hapax_share_tokens": 0.03076923076923077,
+        "fertility_tokens_per_word": 3.410078213251303,
+        "chars_per_token": 1.7997239896335642,
+        "bytes_per_token": 3.2545255727960147,
+        "zipf_alpha": 1.9497834873287283,
+        "zipf_r2": 0.5958323429428452,
+        "zipf_range": [
+          5,
+          351
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_1000",
+        "target_vocab": 1000,
+        "actual_vocab": 1000,
+        "n_tokens": 687826,
+        "used_vocab": 887,
+        "vocab_utilisation": 0.887,
+        "hapax_share_tokens": 0.016910935738444193,
+        "fertility_tokens_per_word": 2.688511133955339,
+        "chars_per_token": 2.2827502885904285,
+        "bytes_per_token": 4.128004757017036,
+        "zipf_alpha": 1.083714556276818,
+        "zipf_r2": 0.8317095965216459,
+        "zipf_range": [
+          5,
+          798
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_2000",
+        "target_vocab": 2000,
+        "actual_vocab": 2000,
+        "n_tokens": 573582,
+        "used_vocab": 1885,
+        "vocab_utilisation": 0.9425,
+        "hapax_share_tokens": 0.009549071618037135,
+        "fertility_tokens_per_word": 2.2419646730951888,
+        "chars_per_token": 2.7374202816685322,
+        "bytes_per_token": 4.950205899069357,
+        "zipf_alpha": 0.9294145560294971,
+        "zipf_r2": 0.9902186817331071,
+        "zipf_range": [
+          5,
+          1696
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_3000",
+        "target_vocab": 3000,
+        "actual_vocab": 3000,
+        "n_tokens": 520056,
+        "used_vocab": 2881,
+        "vocab_utilisation": 0.9603333333333334,
+        "hapax_share_tokens": 0.006942034015966678,
+        "fertility_tokens_per_word": 2.0327471573919533,
+        "chars_per_token": 3.0191652437429815,
+        "bytes_per_token": 5.459698570923131,
+        "zipf_alpha": 0.9049244321641335,
+        "zipf_r2": 0.9938025195821039,
+        "zipf_range": [
+          5,
+          2592
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_4000",
+        "target_vocab": 4000,
+        "actual_vocab": 4000,
+        "n_tokens": 487170,
+        "used_vocab": 3879,
+        "vocab_utilisation": 0.96975,
+        "hapax_share_tokens": 0.006444960041247744,
+        "fertility_tokens_per_word": 1.90420537916424,
+        "chars_per_token": 3.222971447338711,
+        "bytes_per_token": 5.82825091857052,
+        "zipf_alpha": 0.9003581343441492,
+        "zipf_r2": 0.9945782287320936,
+        "zipf_range": [
+          5,
+          3491
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_6000",
+        "target_vocab": 6000,
+        "actual_vocab": 6000,
+        "n_tokens": 445948,
+        "used_vocab": 5868,
+        "vocab_utilisation": 0.978,
+        "hapax_share_tokens": 0.005794137695978187,
+        "fertility_tokens_per_word": 1.743080609289436,
+        "chars_per_token": 3.520892570434221,
+        "bytes_per_token": 6.366995703534942,
+        "zipf_alpha": 0.888194860665617,
+        "zipf_r2": 0.9952438612243326,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_8000",
+        "target_vocab": 8000,
+        "actual_vocab": 8000,
+        "n_tokens": 420075,
+        "used_vocab": 7843,
+        "vocab_utilisation": 0.980375,
+        "hapax_share_tokens": 0.007140124952186663,
+        "fertility_tokens_per_word": 1.6419506017456291,
+        "chars_per_token": 3.7377492114503363,
+        "bytes_per_token": 6.759147771231328,
+        "zipf_alpha": 0.865692597241714,
+        "zipf_r2": 0.9958557164541589,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_12000",
+        "target_vocab": 12000,
+        "actual_vocab": 12000,
+        "n_tokens": 388617,
+        "used_vocab": 11773,
+        "vocab_utilisation": 0.9810833333333333,
+        "hapax_share_tokens": 0.010872335003822306,
+        "fertility_tokens_per_word": 1.5189904588432568,
+        "chars_per_token": 4.040314757203108,
+        "bytes_per_token": 7.306291284220711,
+        "zipf_alpha": 0.8421053787226979,
+        "zipf_r2": 0.9958142425471886,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_16000",
+        "target_vocab": 16000,
+        "actual_vocab": 16000,
+        "n_tokens": 369545,
+        "used_vocab": 15662,
+        "vocab_utilisation": 0.978875,
+        "hapax_share_tokens": 0.01832460732984293,
+        "fertility_tokens_per_word": 1.4444435758426197,
+        "chars_per_token": 4.248833024394864,
+        "bytes_per_token": 7.683364678185336,
+        "zipf_alpha": 0.8300025812815544,
+        "zipf_r2": 0.9958609838480912,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_24000",
+        "target_vocab": 24000,
+        "actual_vocab": 24000,
+        "n_tokens": 346546,
+        "used_vocab": 23212,
+        "vocab_utilisation": 0.9671666666666666,
+        "hapax_share_tokens": 0.03580044804411511,
+        "fertility_tokens_per_word": 1.354547195697294,
+        "chars_per_token": 4.530812648248717,
+        "bytes_per_token": 8.193281699976337,
+        "zipf_alpha": 0.8235117022917396,
+        "zipf_r2": 0.9959273078415847,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_32000",
+        "target_vocab": 32000,
+        "actual_vocab": 32000,
+        "n_tokens": 332159,
+        "used_vocab": 30210,
+        "vocab_utilisation": 0.9440625,
+        "hapax_share_tokens": 0.10887123469049984,
+        "fertility_tokens_per_word": 1.2983126106653011,
+        "chars_per_token": 4.72705842683775,
+        "bytes_per_token": 8.548162175343736,
+        "zipf_alpha": 0.8338722743970082,
+        "zipf_r2": 0.9960162083642962,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_48000",
+        "target_vocab": 48000,
+        "actual_vocab": 48000,
+        "n_tokens": 316159,
+        "used_vocab": 42338,
+        "vocab_utilisation": 0.8820416666666666,
+        "hapax_share_tokens": 0.4271576361660919,
+        "fertility_tokens_per_word": 1.2357732792889278,
+        "chars_per_token": 4.966282788090802,
+        "bytes_per_token": 8.980762844012032,
+        "zipf_alpha": 0.8576443679521493,
+        "zipf_r2": 0.9971161464144876,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_64000",
+        "target_vocab": 64000,
+        "actual_vocab": 60335,
+        "n_tokens": 303824,
+        "used_vocab": 46869,
+        "vocab_utilisation": 0.7768127952266511,
+        "hapax_share_tokens": 0.5546096567027247,
+        "fertility_tokens_per_word": 1.187559363505955,
+        "chars_per_token": 5.167909710885249,
+        "bytes_per_token": 9.345374295644847,
+        "zipf_alpha": 0.8741017624216899,
+        "zipf_r2": 0.9956107306229344,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_96000",
+        "target_vocab": 96000,
+        "actual_vocab": 60335,
+        "n_tokens": 303824,
+        "used_vocab": 46869,
+        "vocab_utilisation": 0.7768127952266511,
+        "hapax_share_tokens": 0.5546096567027247,
+        "fertility_tokens_per_word": 1.187559363505955,
+        "chars_per_token": 5.167909710885249,
+        "bytes_per_token": 9.345374295644847,
+        "zipf_alpha": 0.8741017624216899,
+        "zipf_r2": 0.9956107306229344,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_128000",
+        "target_vocab": 128000,
+        "actual_vocab": 60335,
+        "n_tokens": 303824,
+        "used_vocab": 46869,
+        "vocab_utilisation": 0.7768127952266511,
+        "hapax_share_tokens": 0.5546096567027247,
+        "fertility_tokens_per_word": 1.187559363505955,
+        "chars_per_token": 5.167909710885249,
+        "bytes_per_token": 9.345374295644847,
+        "zipf_alpha": 0.8741017624216899,
+        "zipf_r2": 0.9956107306229344,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_151936",
+        "target_vocab": 151936,
+        "actual_vocab": 60335,
+        "n_tokens": 303824,
+        "used_vocab": 46869,
+        "vocab_utilisation": 0.7768127952266511,
+        "hapax_share_tokens": 0.5546096567027247,
+        "fertility_tokens_per_word": 1.187559363505955,
+        "chars_per_token": 5.167909710885249,
+        "bytes_per_token": 9.345374295644847,
+        "zipf_alpha": 0.8741017624216899,
+        "zipf_r2": 0.9956107306229344,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      {
+        "lang": "ar",
+        "tag": "sweep_163840",
+        "target_vocab": 163840,
+        "actual_vocab": 60335,
+        "n_tokens": 303824,
+        "used_vocab": 46869,
+        "vocab_utilisation": 0.7768127952266511,
+        "hapax_share_tokens": 0.5546096567027247,
+        "fertility_tokens_per_word": 1.187559363505955,
+        "chars_per_token": 5.167909710885249,
+        "bytes_per_token": 9.345374295644847,
+        "zipf_alpha": 0.8741017624216899,
+        "zipf_r2": 0.9956107306229344,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      }
+    ]
+  },
+  "model_style": {
+    "en": {
+      "llama2": {
+        "lang": "en",
+        "tag": "llama2",
+        "target_vocab": 32000,
+        "actual_vocab": 32000,
+        "n_tokens": 583944,
+        "used_vocab": 28727,
+        "vocab_utilisation": 0.89771875,
+        "hapax_share_tokens": 0.10669405089288822,
+        "fertility_tokens_per_word": 1.325494611256889,
+        "chars_per_token": 4.387208362445714,
+        "bytes_per_token": 4.397125409285822,
+        "zipf_alpha": 0.9961144403999864,
+        "zipf_r2": 0.9981155877078756,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "llama3": {
+        "lang": "en",
+        "tag": "llama3",
+        "target_vocab": 128000,
+        "actual_vocab": 56774,
+        "n_tokens": 559170,
+        "used_vocab": 40075,
+        "vocab_utilisation": 0.7058688836439215,
+        "hapax_share_tokens": 0.501809107922645,
+        "fertility_tokens_per_word": 1.2692601033258577,
+        "chars_per_token": 4.581583418280666,
+        "bytes_per_token": 4.591939839404832,
+        "zipf_alpha": 1.0260680572863312,
+        "zipf_r2": 0.9982994572276093,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "qwen": {
+        "lang": "en",
+        "tag": "qwen",
+        "target_vocab": 151643,
+        "actual_vocab": 56774,
+        "n_tokens": 559170,
+        "used_vocab": 40075,
+        "vocab_utilisation": 0.7058688836439215,
+        "hapax_share_tokens": 0.501809107922645,
+        "fertility_tokens_per_word": 1.2692601033258577,
+        "chars_per_token": 4.581583418280666,
+        "bytes_per_token": 4.591939839404832,
+        "zipf_alpha": 1.0260680572863312,
+        "zipf_r2": 0.9982994572276093,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "kimi": {
+        "lang": "en",
+        "tag": "kimi",
+        "target_vocab": 163584,
+        "actual_vocab": 56774,
+        "n_tokens": 559170,
+        "used_vocab": 40075,
+        "vocab_utilisation": 0.7058688836439215,
+        "hapax_share_tokens": 0.501809107922645,
+        "fertility_tokens_per_word": 1.2692601033258577,
+        "chars_per_token": 4.581583418280666,
+        "bytes_per_token": 4.591939839404832,
+        "zipf_alpha": 1.0260680572863312,
+        "zipf_r2": 0.9982994572276093,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      }
+    },
+    "hi": {
+      "llama2": {
+        "lang": "hi",
+        "tag": "llama2",
+        "target_vocab": 32000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "llama3": {
+        "lang": "hi",
+        "tag": "llama3",
+        "target_vocab": 128000,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "qwen": {
+        "lang": "hi",
+        "tag": "qwen",
+        "target_vocab": 151643,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "kimi": {
+        "lang": "hi",
+        "tag": "kimi",
+        "target_vocab": 163584,
+        "actual_vocab": 6927,
+        "n_tokens": 1307478,
+        "used_vocab": 6085,
+        "vocab_utilisation": 0.8784466580049083,
+        "hapax_share_tokens": 0.3857025472473295,
+        "fertility_tokens_per_word": 3.449509673300214,
+        "chars_per_token": 1.5204714725601503,
+        "bytes_per_token": 3.915018837793064,
+        "zipf_alpha": 1.9367733215782161,
+        "zipf_r2": 0.9868681455475241,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      }
+    },
+    "ar": {
+      "llama2": {
+        "lang": "ar",
+        "tag": "llama2",
+        "target_vocab": 32000,
+        "actual_vocab": 32000,
+        "n_tokens": 332159,
+        "used_vocab": 30210,
+        "vocab_utilisation": 0.9440625,
+        "hapax_share_tokens": 0.10887123469049984,
+        "fertility_tokens_per_word": 1.2983126106653011,
+        "chars_per_token": 4.72705842683775,
+        "bytes_per_token": 8.548162175343736,
+        "zipf_alpha": 0.8338722743970082,
+        "zipf_r2": 0.9960162083642962,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "llama3": {
+        "lang": "ar",
+        "tag": "llama3",
+        "target_vocab": 128000,
+        "actual_vocab": 60335,
+        "n_tokens": 303824,
+        "used_vocab": 46869,
+        "vocab_utilisation": 0.7768127952266511,
+        "hapax_share_tokens": 0.5546096567027247,
+        "fertility_tokens_per_word": 1.187559363505955,
+        "chars_per_token": 5.167909710885249,
+        "bytes_per_token": 9.345374295644847,
+        "zipf_alpha": 0.8741017624216899,
+        "zipf_r2": 0.9956107306229344,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "qwen": {
+        "lang": "ar",
+        "tag": "qwen",
+        "target_vocab": 151643,
+        "actual_vocab": 60335,
+        "n_tokens": 303824,
+        "used_vocab": 46869,
+        "vocab_utilisation": 0.7768127952266511,
+        "hapax_share_tokens": 0.5546096567027247,
+        "fertility_tokens_per_word": 1.187559363505955,
+        "chars_per_token": 5.167909710885249,
+        "bytes_per_token": 9.345374295644847,
+        "zipf_alpha": 0.8741017624216899,
+        "zipf_r2": 0.9956107306229344,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      },
+      "kimi": {
+        "lang": "ar",
+        "tag": "kimi",
+        "target_vocab": 163584,
+        "actual_vocab": 60335,
+        "n_tokens": 303824,
+        "used_vocab": 46869,
+        "vocab_utilisation": 0.7768127952266511,
+        "hapax_share_tokens": 0.5546096567027247,
+        "fertility_tokens_per_word": 1.187559363505955,
+        "chars_per_token": 5.167909710885249,
+        "bytes_per_token": 9.345374295644847,
+        "zipf_alpha": 0.8741017624216899,
+        "zipf_r2": 0.9956107306229344,
+        "zipf_range": [
+          5,
+          5000
+        ]
+      }
+    }
+  }
+}

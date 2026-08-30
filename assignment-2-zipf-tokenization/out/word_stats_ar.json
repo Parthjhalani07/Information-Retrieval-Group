@@ -1,0 +1,52 @@
+{
+  "lang": "ar",
+  "tokens_N": 255839,
+  "types_V": 43085,
+  "type_token_ratio": 0.16840669327194055,
+  "hapax_legomena": 23582,
+  "hapax_share": 0.5473366600905187,
+  "top10": [
+    {
+      "word": "في",
+      "count": 8676
+    },
+    {
+      "word": "من",
+      "count": 6245
+    },
+    {
+      "word": "على",
+      "count": 3846
+    },
+    {
+      "word": "أن",
+      "count": 2260
+    },
+    {
+      "word": "ان",
+      "count": 1998
+    },
+    {
+      "word": "إلى",
+      "count": 1983
+    },
+    {
+      "word": "الى",
+      "count": 1604
+    },
+    {
+      "word": "التي",
+      "count": 1532
+    },
+    {
+      "word": "عن",
+      "count": 1344
+    },
+    {
+      "word": "مع",
+      "count": 1216
+    }
+  ],
+  "coverage_top100": 0.248699377342782,
+  "coverage_top1000": 0.490703137520081
+}

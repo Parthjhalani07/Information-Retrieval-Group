@@ -1,0 +1,52 @@
+{
+  "lang": "hi",
+  "tokens_N": 379033,
+  "types_V": 22218,
+  "type_token_ratio": 0.058617587386850224,
+  "hapax_legomena": 9917,
+  "hapax_share": 0.446349806463228,
+  "top10": [
+    {
+      "word": "के",
+      "count": 19136
+    },
+    {
+      "word": "में",
+      "count": 12641
+    },
+    {
+      "word": "की",
+      "count": 10731
+    },
+    {
+      "word": "है",
+      "count": 10070
+    },
+    {
+      "word": "को",
+      "count": 8411
+    },
+    {
+      "word": "से",
+      "count": 6874
+    },
+    {
+      "word": "ने",
+      "count": 6652
+    },
+    {
+      "word": "कि",
+      "count": 5988
+    },
+    {
+      "word": "और",
+      "count": 5506
+    },
+    {
+      "word": "का",
+      "count": 5216
+    }
+  ],
+  "coverage_top100": 0.469317974952049,
+  "coverage_top1000": 0.7422942065730425
+}

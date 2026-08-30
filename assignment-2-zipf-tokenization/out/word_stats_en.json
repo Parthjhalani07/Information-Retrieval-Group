@@ -1,0 +1,52 @@
+{
+  "lang": "en",
+  "tokens_N": 440548,
+  "types_V": 28158,
+  "type_token_ratio": 0.0639158502592226,
+  "hapax_legomena": 12430,
+  "hapax_share": 0.44143760210242206,
+  "top10": [
+    {
+      "word": "the",
+      "count": 23953
+    },
+    {
+      "word": "and",
+      "count": 12804
+    },
+    {
+      "word": "to",
+      "count": 12002
+    },
+    {
+      "word": "of",
+      "count": 11159
+    },
+    {
+      "word": "a",
+      "count": 9576
+    },
+    {
+      "word": "in",
+      "count": 8435
+    },
+    {
+      "word": "i",
+      "count": 6264
+    },
+    {
+      "word": "is",
+      "count": 5310
+    },
+    {
+      "word": "that",
+      "count": 5237
+    },
+    {
+      "word": "you",
+      "count": 4578
+    }
+  ],
+  "coverage_top100": 0.4716943443166238,
+  "coverage_top1000": 0.7121811925147771
+}
